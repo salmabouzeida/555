@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.darryncampbell.dwgettingstartedjava">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WMS"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TestApi"
+            android:exported="false" />
+        <activity
+            android:name=".StockActivity"
+            android:label="Ajustement stock"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.stock.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReturnActivity"
+            android:label="Bon retour"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.retour.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColisageActivity"
+            android:label="Colisage"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.colisage.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScanEtiquetteActivity"
+            android:label="Scan Etiquette"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.etiquette.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReceptionActivity"
+            android:label="Reception"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.reception.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PrelevementActivity"
+            android:label="Prélevement"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.prelevement.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PrelevementLotActivity"
+            android:label="Prélevement Lot"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.prelevementlot.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TransfertActivity"
+            android:label="Transfert"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.transfert.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConsultActivity"
+            android:label="Consultation"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.consultation.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.test.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

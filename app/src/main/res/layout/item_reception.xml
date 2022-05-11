@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#FBF5F5"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:cardMaxElevation="6dp"
+            app:contentPadding="8dp"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBF5F5"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/layouttop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_noDoc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="fill_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:text="TextView"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_ean"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/txt_code_article"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textStyle="bold|italic" />
+
+                        <LinearLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="right"
+
+
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_qt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/buttonround"
+                                android:elevation="15dp"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:id="@+id/poids"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="Poids"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/txt_poids"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number|numberDecimal"
+                            android:padding="3dp"
+                            android:text="0"
+                            android:textColor="@color/colorTextMenu"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/epaisseur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="Epaisseur"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/txt_epaisseur"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number|numberDecimal"
+
+                            android:padding="3dp"
+                            android:text="0"
+                            android:textColor="@color/colorTextMenu"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:id="@+id/nb_paquet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="Nb Exemplaire Paquet"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/txt_nb_paquet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:padding="3dp"
+                            android:text="TextView"
+                            android:textColor="@color/colorTextMenu"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:id="@+id/nb_couche"
+                            android:layout_width="wrap_content"
+                            android:layout_height="22dp"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Nb paquet couche"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/txt_nb_couche"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:padding="3dp"
+                            android:text="TextView"
+                            android:textColor="@color/colorTextMenu"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/txt_piece"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="TextView"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="NB couche"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+
+                        <Button
+                            android:id="@+id/btmoin"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/ic_remove_circle_red"
+                            android:padding="5dp"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edt_qt_scan"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number|numberDecimal"
+                            android:text="0" />
+
+                        <Button
+                            android:id="@+id/btplus"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/ic_add_circle_vert"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="QT Totale : "
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+
+                        <EditText
+                            android:id="@+id/qt_total"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="0"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number|numberDecimal"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

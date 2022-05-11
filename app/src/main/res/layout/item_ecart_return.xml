@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/round_blue_cadre"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_article2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Article"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_article"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="article"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/line_v" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_ean2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="EAN"
+                    android:textColor="@color/colorTextMenu"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_ean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="ean"
+                    android:textColor="@color/colorTextMenu"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/line_v" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_qt_rejected2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Quantité"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_qt_rejected3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="fill_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Rejeté"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_qt_rejected"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="fill_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:text="rejete"
+                            android:textColor="@color/colorTextMenu"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/line_v" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="fill_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Scanné"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_qt_scan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="fill_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:text="scan"
+                            android:textColor="@color/colorTextMenu"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView911"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/line_v" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_label3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="fill_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Rejeté"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_preview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="fill_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:text="prevu"
+                            android:textColor="@color/colorTextMenu"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

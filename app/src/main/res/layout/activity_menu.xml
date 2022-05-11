@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+      >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_home_img" />
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minHeight="?actionBarSize"
+
+                    android:paddingLeft="5dp"
+                    android:text="Menu"
+                    android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                    android:textColor="@color/design_default_color_background" />
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_scan_etiquette"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+
+                                android:src="@drawable/icon_scan" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Scan etiquette"
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_consult"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:padding="9dp"
+                                android:src="@drawable/icon_scan_card" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Consultation "
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_prelevement_lot"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+
+                                android:src="@drawable/ison_prelevement" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Prélèvement par lot"
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="13dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_stock"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+
+                                android:src="@drawable/icon_stock" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Ajustement stock"
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_prelevement"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:visibility="gone"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+
+                                android:src="@drawable/ison_prelevement" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Prélèvement"
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_transfert"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+
+                                android:src="@drawable/icon_transfert_check" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Transfert"
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_reception"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="70dp"
+
+                                android:src="@drawable/icon_reception" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Reception"
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_colisage"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+
+                                android:src="@drawable/icon_colis" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="colis"
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_return"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:padding="9dp"
+                                android:src="@drawable/icon_return" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/line_h" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Retour "
+                                android:textColor="@color/colorTextMenu"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_test"
+
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        app:cardBackgroundColor="#66FCF9F9"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="6dp"
+                        app:contentPadding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="test"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

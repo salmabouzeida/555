@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DW Getting Started Java</string>
+
+    <string name="activity_intent_filter_action">com.darryncampbell.datawedge.java.ACTION</string>
+
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+    <string name="key_autorisation">Basic SEVMTUkuR1VJREFSQTprMlc3V0NZM09vMjRSYnJnRjQxYU5mcGY0WDJSU1VNbmhuRndjb2czMndjPQ==</string>
+    <string name="company_name">CRONUS FR</string>
+    <string name="base_url">https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/DEV/ODataV4/</string>
+</resources>
