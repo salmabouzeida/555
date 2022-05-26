@@ -163,7 +163,7 @@ public class TestApi extends AppCompatActivity {
                         public void onErrorResponse(VolleyError error) {
 
                             Log.e("***ERROR", "error => " + error.toString());
-
+                            Toast.makeText(getApplicationContext(),"echec", Toast.LENGTH_SHORT).show();
                             Toast.makeText(getApplicationContext(), "eror vollety" + error.toString(), Toast.LENGTH_SHORT).show();
                         }
                     }
@@ -173,7 +173,7 @@ public class TestApi extends AppCompatActivity {
                     Map<String, String> params = new HashMap<String, String>();
                     params.put("Authorization", "Bearer " + authenticationResult.getAccessToken());
                     params.put("Content-Type", "application/json");
-                    params.put("Company", "RDD Sprint 2");
+                   // params.put("Company", "RDD Sprint 2");
 
 
                     return params;
