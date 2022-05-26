@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.darryncampbell.dwgettingstartedjava">
 
+    <queries>
+        <package android:name="com.azure.authenticator" />
+        <package android:name="com.microsoft.windowsintune.companyportal" />
+    </queries>
+
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -16,10 +21,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="WMS"
-        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Account"
+            android:exported="false" />
         <activity
             android:name=".TestApi"
             android:exported="false" />
@@ -115,19 +123,37 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:launchMode="singleTop">
+        <activity android:name="com.microsoft.identity.client.BrowserTabActivity">
             <intent-filter>
-                <action android:name="com.test.action" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!--
+                    Add in your scheme/host from registered redirect URI
+                    note that the leading "/" is required for android:path
+                -->
+                <data
+                    android:host="fr.vaganet.wmsexpert"
+                    android:path="/1wIqXSqBj7w+h11ZifsnqwgyKrY="
+                    android:scheme="msauth" />
             </intent-filter>
         </activity>
     </application>

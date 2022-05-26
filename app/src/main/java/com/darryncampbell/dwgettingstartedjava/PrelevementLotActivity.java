@@ -216,7 +216,7 @@ public class PrelevementLotActivity extends AppCompatActivity implements View.On
                     Map<String, String> params = new HashMap<String, String>();
                     params.put("Authorization", "Basic SEVMTUkuR1VJREFSQTprMlc3V0NZM09vMjRSYnJnRjQxYU5mcGY0WDJSU1VNbmhuRndjb2czMndjPQ==");
                     //params.put("Content-Type", "application/json");
-                    params.put("Company", "CRONUS FR");
+                    params.put("Company", getResources().getString(R.string.company_name));
 
                     return params;
                 }

@@ -6,7 +6,24 @@
     <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
     <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
     <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
-    <string name="key_autorisation">Basic SEVMTUkuR1VJREFSQTprMlc3V0NZM09vMjRSYnJnRjQxYU5mcGY0WDJSU1VNbmhuRndjb2czMndjPQ==</string>
+    <string name="key_autorisation">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImpTMVhvMU9XRGpfNTJ2YndHTmd2UU8yVnpNYyIsImtpZCI6ImpTMVhvMU9XRGpfNTJ2YndHTmd2UU8yVnpNYyJ9.eyJhdWQiOiJodHRwczovL2FwaS5idXNpbmVzc2NlbnRyYWwuZHluYW1pY3MuY29tIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvZWM2MWRlZmItYzQ5OS00YmFlLWFmYmUtZTk2YzA2YjQzOTY0LyIsImlhdCI6MTY1MzQzMDU2OSwibmJmIjoxNjUzNDMwNTY5LCJleHAiOjE2NTM0MzU3MzAsImFjciI6IjEiLCJhaW8iOiJBVFFBeS84VEFBQUFvc0pZN1RSNzVpYVgvRHQzQUViRzJwU2IvYUxkRHgzMStIbkQzZHliQUVYQVlCR3FDdzVuRDd5cmJCM3VOcHQvIiwiYW1yIjpbInB3ZCJdLCJhcHBpZCI6IjY4OTQwMGU2LTQxMGMtNGU2Yy1hMGIwLWIxNDI4MjVmYWM2ZSIsImFwcGlkYWNyIjoiMCIsImZhbWlseV9uYW1lIjoiSXNzYW91aSIsImdpdmVuX25hbWUiOiJGYXRlbiIsImlwYWRkciI6IjE5Ni4xNzkuMjcuMTA4IiwibmFtZSI6IkZhdGVuIElzc2FvdWkgW0VYVF0iLCJvaWQiOiIzMDQyYjVlNS1lNzYzLTRmNmMtYTRkYS1hYTExZTEyYTE1NjQiLCJwdWlkIjoiMTAwMzIwMDFGODkzQzEyOSIsInJoIjoiMC5BVEVBLTk1aDdKbkVya3V2dnVsc0JyUTVaRDN2Ylpsc3MxTkJoZ2VtX1R3QnVKOHhBR1UuIiwic2NwIjoiRmluYW5jaWFscy5SZWFkV3JpdGUuQWxsIHVzZXJfaW1wZXJzb25hdGlvbiIsInN1YiI6Ik9OSVI1T1lpcm55dTdDeG8tSklqT3hNMW9kUkpnZTRyR09nODlLU2hxUzQiLCJ0aWQiOiJlYzYxZGVmYi1jNDk5LTRiYWUtYWZiZS1lOTZjMDZiNDM5NjQiLCJ1bmlxdWVfbmFtZSI6ImZhdGVuLmlzc2FvdWlAdmFnYW5ldC5mciIsInVwbiI6ImZhdGVuLmlzc2FvdWlAdmFnYW5ldC5mciIsInV0aSI6Ijc5a29wMkVqTWtPY2VlYklXRnNvQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdfQ.Y9hMECcdMeg_o6vsl_B91AbigSn5zuy9f9o3XOhENbSAaC0URxcTXHnK5vVeUDMkE3FSpsaNdBg3S2i7UqXmGhWh02QYy7nu_ziMQiAa2H4wPaCZ3BKC6G3pF4NPyDXG7bygZIvn0LG7tEd3RrotdMmStqeTTPnS7VNf_GbMSqedwVrm5GzDnl1eOmw095K-LTDvqZJ9uROv5XmJRQzWf-RCO91bmLMLlhWu8xLjR_gYf9o-h3N1iAOHuP0NqaRNa17z3F9n0vORn5g7Yoyuj30IwbeoG0u5pRcmnpXrcqkLgYGVfl7yJq9P_yq4UHbKVWS-sIzYDDV1boUAWLwPxw</string>
     <string name="company_name">CRONUS FR</string>
-    <string name="base_url">https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/DEV/ODataV4/</string>
+    <string name="base_url">https://api.businesscentral.dynamics.com/v2.0/ec61defb-c499-4bae-afbe-e96c06b43964/vagademo/ODataV4/</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_single_account">SingleAccountActivity</string>
 </resources>

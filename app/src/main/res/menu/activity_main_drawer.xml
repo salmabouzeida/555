@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_single_account"
+
+            android:title="Single Account Mode" />
+        <item
+            android:id="@+id/nav_multiple_account"
+
+            android:title="Multiple Account Mode" />
+        <item
+            android:id="@+id/nav_b2c"
+
+            android:title="B2C Mode" />
+    </group>
+</menu>

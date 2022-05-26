@@ -51,7 +51,7 @@ public class MenuActivity extends Activity {
         btn_test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+                Intent intent=new Intent(getApplicationContext(),TestApi.class);
                 startActivity(intent);;
             }
         });

@@ -1,0 +1,32 @@
+{
+  "aud": "https://api.businesscentral.dynamics.com",
+  "iss": "https://sts.windows.net/ec61defb-c499-4bae-afbe-e96c06b43964/",
+  "iat": 1652465562,
+  "nbf": 1652465562,
+  "exp": 1652470025,
+  "acr": "1",
+  "aio": "E2ZgYHA707vw2AXTyAI+/xcr0grV+v/2iFg8PiTOy1dn9Hmy3AQA",
+  "amr": [
+    "pwd"
+  ],
+  "appid": "689400e6-410c-4e6c-a0b0-b142825fac6e",
+  "appidacr": "1",
+  "family_name": "Mejri",
+  "given_name": "Moez",
+  "ipaddr": "82.65.108.141",
+  "name": "Moez Mejri",
+  "oid": "598ec043-d2e3-4776-9d87-23c1a6520b77",
+  "puid": "10032001B1C17877",
+  "rh": "0.ATEA-95h7JnErkuvvulsBrQ5ZD3vbZlss1NBhgem_TwBuJ8xAGg.",
+  "scp": "Financials.ReadWrite.All user_impersonation",
+  "sub": "L7CXzl0rIiOHgqwX2rLQviHSKYnEtJlk0Csmy8tMTUM",
+  "tid": "ec61defb-c499-4bae-afbe-e96c06b43964",
+  "unique_name": "moez.mejri@vaganet.fr",
+  "upn": "moez.mejri@vaganet.fr",
+  "uti": "R05dcfUw1kSpvOH3ILOYAA",
+  "ver": "1.0",
+  "wids": [
+    "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3",
+    "b79fbf4d-3ef9-4689-8143-76b194e85509"
+  ]
+}
