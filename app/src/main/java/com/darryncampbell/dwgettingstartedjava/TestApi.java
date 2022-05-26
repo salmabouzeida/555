@@ -52,8 +52,8 @@ public class TestApi extends AppCompatActivity {
     /* Azure AD Variables */
     private ISingleAccountPublicClientApplication mSingleAccountApp;
     private IAccount mAccount;
-    String urlAPi = "https://api.businesscentral.dynamics.com/v2.0/ec61defb-c499-4bae-afbe-e96c06b43964/vagademo/ODataV4/Company(%27CRONUS%20FR%27)/Power_BI_Purchase_Hdr_Vendor?$select=No,Item_No,Quantity,Base_Unit_of_Measure,Description,Inventory,Qty_on_Purch_Order,Unit_Price,Vendor_No,Name,Balance,Country_Region_Code";
-
+   String urlAPi = "https://api.businesscentral.dynamics.com/v2.0/ec61defb-c499-4bae-afbe-e96c06b43964/vagademo/ODataV4/Company(%27CRONUS%20FR%27)/Power_BI_Purchase_Hdr_Vendor?$select=No,Item_No,Quantity,Base_Unit_of_Measure,Description,Inventory,Qty_on_Purch_Order,Unit_Price,Vendor_No,Name,Balance,Country_Region_Code";
+ //String urlAPi =  "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/DEV/ODataV4/WmsApp_ReturnPickingLot?$format=application/json;odata.metadata=none&=";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -173,6 +173,7 @@ public class TestApi extends AppCompatActivity {
                     Map<String, String> params = new HashMap<String, String>();
                     params.put("Authorization", "Bearer " + authenticationResult.getAccessToken());
                     params.put("Content-Type", "application/json");
+                    params.put("Company", "RDD Sprint 2");
 
 
                     return params;
