@@ -46,7 +46,7 @@ public class MSGraphRequestWrapper {
     // See: https://docs.microsoft.com/en-us/graph/deployments#microsoft-graph-and-graph-explorer-service-root-endpoints
     //public static final String MS_GRAPH_ROOT_ENDPOINT = "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/vagademo/ODataV4/Company(%27CRONUS%20FR%27)/Power_BI_Purchase_Hdr_Vendor?$select=No,Item_No,Quantity,Base_Unit_of_Measure,Description,Inventory,Qty_on_Purch_Order,Unit_Price,Vendor_No,Name,Balance,Country_Region_Code";
    // public static final String MS_GRAPH_ROOT_ENDPOINT = "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/vagademo/ODataV4/Power_BI_Purchase_Hdr_Vendor?$select=No,Item_No,Quantity,Base_Unit_of_Measure,Description,Inventory,Qty_on_Purch_Order,Unit_Price,Vendor_No,Name,Balance,Country_Region_Code";
-    //public static final String MS_GRAPH_ROOT_ENDPOINT = "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/vagademo/ODataV4/InvoiceDocument";
+    public static final String MS_GRAPH_ROOT_ENDPOINT = "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/vagademo/ODataV4/InvoiceDocument";
     public static final OkHttpClient client;
 
     static {

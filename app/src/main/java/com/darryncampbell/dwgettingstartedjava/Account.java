@@ -62,7 +62,6 @@ public class Account extends AppCompatActivity {
         logTextView = findViewById(R.id.txt_log);
         currentUserTextView = findViewById(R.id.current_user);
         deviceModeTextView = findViewById(R.id.device_mode);
-
         final String defaultGraphResourceUrl = MSGraphRequestWrapper.MS_GRAPH_ROOT_ENDPOINT;
         graphResourceTextView.setText(defaultGraphResourceUrl);
         scopeTextView.setText("https://api.businesscentral.dynamics.com/.default");
