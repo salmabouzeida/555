@@ -1,5 +1,5 @@
 {
-  "client_id" : "689400e6-410c-4e6c-a0b0-b142825fac6e",
+  "client_id" : "bf53cbc9-d316-427b-8c13-aeeebc863ed0",
   "authorization_user_agent" : "DEFAULT",
   "redirect_uri" : "msauth://fr.vaganet.wmsexpert/1wIqXSqBj7w%2Bh11ZifsnqwgyKrY%3D",
   "account_mode" : "SINGLE",
@@ -8,7 +8,7 @@
       "type": "AAD",
       "audience": {
         "type": "AzureADMyOrg",
-        "tenant_id": "ec61defb-c499-4bae-afbe-e96c06b43964"
+        "tenant_id": "b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9"
       }
     }
   ]

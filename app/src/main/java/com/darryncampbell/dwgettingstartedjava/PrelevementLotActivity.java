@@ -77,7 +77,7 @@ public class PrelevementLotActivity extends AppCompatActivity implements View.On
         baseUrlCreatePrelevement = getResources().getString(R.string.base_url) + "WmsApp_RegisterPickLot?$format=application/json;odata.metadata=none";
         baseUrlCreatePrelevementFacture = getResources().getString(R.string.base_url) + "WmsApp_InvoicePickingDocs?$format=application/json;odata.metadata=none";
         // baseUrlListBC = getResources().getString(R.string.base_url) + "WmsApp_ReturnPickingLot?$format=application/json;odata.metadata=none";
-        baseUrlListBC = "https://api.businesscentral.dynamics.com/v2.0/ec61defb-c499-4bae-afbe-e96c06b43964/Bc365_Check/ODataV4/InvoiceDocument";
+        baseUrlListBC = "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/Bc365_Check/ODataV4/InvoiceDocument";
         grid_prelevement = (GridView) findViewById(R.id.grid_prelevement);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         layout_scan = (LinearLayout) findViewById(R.id.layout_scan);
@@ -187,7 +187,7 @@ public class PrelevementLotActivity extends AppCompatActivity implements View.On
     void test() {
         try {
             RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-            String url = "https://api.businesscentral.dynamics.com/v2.0/ec61defb-c499-4bae-afbe-e96c06b43964/Bc365_Check/ODataV4/InvoiceDocument";
+            String url = "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/Bc365_Check/ODataV4/InvoiceDocument";
             progressBar.setVisibility(View.VISIBLE);
 
             StringRequest getRequest = new StringRequest(Request.Method.GET, url,

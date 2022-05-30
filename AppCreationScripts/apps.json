@@ -29,9 +29,9 @@
           {
             "settingFile": "/app/src/main/res/raw/auth_config_single_account.json",
             "replaceTokens": {
-                "appId": "689400e6-410c-4e6c-a0b0-b142825fac6e",
+                "appId": "bf53cbc9-d316-427b-8c13-aeeebc863ed0",
                 "authorityEndpointHost": "https://login.microsoftonline.com/",
-                "tenantId": "ec61defb-c499-4bae-afbe-e96c06b43964",
+                "tenantId": "b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9",
                 "redirectUri": "msauth://fr.vaganet.wmsexpert/qaqNetleK1Fditys%2BOnHh5RKgPA%3D"
              }
            },
@@ -51,7 +51,7 @@
            {
             "settingFile": "/fr/vaganet/wmsexpert/MSGraphRequestWrapper.java",
             "replaceTokens": {
-                "msgraphEndpointHost": "https://api.businesscentral.dynamics.com/v2.0/ec61defb-c499-4bae-afbe-e96c06b43964/Bc365_Check/ODataV4/InvoiceDocument"
+                "msgraphEndpointHost": "https://api.businesscentral.dynamics.com/v2.0/b2ba6f8e-2ab7-4428-98f5-8a73929fd0f9/Bc365_Check/ODataV4/InvoiceDocument"
              }
            }
        ]	
